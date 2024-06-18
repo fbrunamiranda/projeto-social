@@ -34,3 +34,31 @@ section#telefone{
 
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 265px;
+    height: 469px;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box; /*pra quando colocar o mouse em cima do botão os debaixo não se mexerem*/
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px); /* botão levanta levemente quando o mouse passa sobre ele*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404); /* faz sombra quando o botão levanta ao passar o mouse*/
+    transition: transform .4s, border .5s;
+}
